@@ -1,5 +1,5 @@
 resource "aws_launch_configuration" "web_server_as" {
-    image_id = "ami-0c7f9161f8491665f"
+    image_id = "ami-02ca28e7c7b8f8be1"
     instance_type = "t2.micro"
     key_name = "vamsi.pem"
 }
