@@ -1,3 +1,7 @@
+resource "aws_s3_bucket" "one" {
+  bucket = "sai7243.flm.bucket"
+}
+
 resource "aws_s3_bucket_ownership_controls" "two" {
   bucket = aws_s3_bucket.one.id
   rule {
